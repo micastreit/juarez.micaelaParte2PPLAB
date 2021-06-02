@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1622643972 source:c:\users\g5\desktop\primerparciallaboratrio\bicicleta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"bicicleta.h"
+
+1622643399 c:\users\g5\desktop\primerparciallaboratrio\bicicleta.h
+	"color.h"
+	"tipo.h"
+	"rodado.h"
+	"cliente.h"
+
+1621427269 c:\users\g5\desktop\primerparciallaboratrio\color.h
+
+1621427267 c:\users\g5\desktop\primerparciallaboratrio\tipo.h
+
+1621787825 source:c:\users\g5\desktop\primerparciallaboratrio\color.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"color.h"
+
+1622643972 source:c:\users\g5\desktop\primerparciallaboratrio\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fecha.h"
+	"tipo.h"
+	"color.h"
+	"servicio.h"
+	"bicicleta.h"
+	"trabajo.h"
+	"rodado.h"
+	"cliente.h"
+
+1621427269 c:\users\g5\desktop\primerparciallaboratrio\fecha.h
+
+1621427952 c:\users\g5\desktop\primerparciallaboratrio\servicio.h
+
+1621788515 source:c:\users\g5\desktop\primerparciallaboratrio\rodado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"rodado.h"
+
+1622639326 c:\users\g5\desktop\primerparciallaboratrio\rodado.h
+
+1621787294 source:c:\users\g5\desktop\primerparciallaboratrio\servicios.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"servicio.h"
+
+1621787294 source:c:\users\g5\desktop\primerparciallaboratrio\tipo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tipo.h"
+
+1622643581 c:\users\g5\desktop\primerparciallaboratrio\trabajo.h
+	"fecha.h"
+	"bicicleta.h"
+	"color.h"
+	"tipo.h"
+	"servicio.h"
+	"cliente.h"
+
+1622643972 source:c:\users\g5\desktop\primerparciallaboratrio\trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"trabajo.h"
+
+1622644859 source:c:\users\g5\desktop\primerparciallaboratrio\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1622643350 c:\users\g5\desktop\primerparciallaboratrio\informes.h
+	"bicicleta.h"
+	"color.h"
+	"tipo.h"
+	"trabajo.h"
+
+1622642347 source:c:\users\g5\desktop\primerparciallaboratrio\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+
+1622639383 c:\users\g5\desktop\primerparciallaboratrio\cliente.h
+
