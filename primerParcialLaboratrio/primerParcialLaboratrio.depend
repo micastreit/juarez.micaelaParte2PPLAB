@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1622643972 source:c:\users\g5\desktop\primerparciallaboratrio\bicicleta.c
+1622647106 source:c:\users\g5\desktop\primerparciallaboratrio\bicicleta.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -72,7 +72,7 @@
 	<string.h>
 	"trabajo.h"
 
-1622645289 source:c:\users\g5\desktop\primerparciallaboratrio\informes.c
+1622646568 source:c:\users\g5\desktop\primerparciallaboratrio\informes.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -84,11 +84,11 @@
 	"tipo.h"
 	"trabajo.h"
 
-1622642347 source:c:\users\g5\desktop\primerparciallaboratrio\cliente.c
+1622647106 source:c:\users\g5\desktop\primerparciallaboratrio\cliente.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"cliente.h"
 
-1622639383 c:\users\g5\desktop\primerparciallaboratrio\cliente.h
+1622647289 c:\users\g5\desktop\primerparciallaboratrio\cliente.h
 

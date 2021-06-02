@@ -152,7 +152,7 @@ int altacliente(eCliente lista[],int tam,int* pIdcliente)
              printf("Ingrese nombre: ");
             fflush(stdin);
             gets(nuevocliente.nombre);
-            while(strlen(nuevocliente.nombre)>=20)
+            while(strlen(nuevocliente.nombre)>=20||strlen(nuevocliente.nombre)<1)
             {
                 printf("Nombre muy largo. Reingrese nombre: ");
                 fflush(stdin);

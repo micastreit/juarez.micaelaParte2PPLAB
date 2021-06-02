@@ -221,7 +221,7 @@ int altabicicleta(eBicicleta bicicletas[],int tam,int* pIdbicicleta,eColor color
             printf("Ingrese marca: ");
             fflush(stdin);
             gets(nuevaBici.marca);
-            while(nuevaBici.marca==NULL||strlen(nuevaBici.marca)>=20)
+            while(nuevaBici.marca==NULL||strlen(nuevaBici.marca)>=20||strlen(nuevaBici.marca)<1)
             {
                 printf("Marca invalido. Reingrese marca: ");
                 fflush(stdin);
