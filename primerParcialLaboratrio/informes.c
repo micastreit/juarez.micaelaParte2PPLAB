@@ -113,7 +113,6 @@ int bicicletaDeMenorRodado(eBicicleta bicicletas[],int tamb,int tamr,eColor colo
     int todoOk=0;
     if(bicicletas!=NULL&&tamb>0&&tamr>0&&colores!=NULL&&tamc>0&&tipos!=NULL&&tamt>0)
     {
-        float rodadosbicis[tamb];
         float menor;
         int flag=0;
         system("cls");
@@ -121,9 +120,9 @@ int bicicletaDeMenorRodado(eBicicleta bicicletas[],int tamb,int tamr,eColor colo
 
         for(int i=0; i<tamb; i++)
         {
-            if(bicicletas[i].isEmpty==0)
+            if(!bicicletas[i].isEmpty)
             {
-                if(flag==0 || bicicletas[i].rodado<menor)
+                if(!flag || bicicletas[i].rodado<menor)
                 {
                     menor= bicicletas[i].rodado;
                     flag=1;
@@ -133,7 +132,7 @@ int bicicletaDeMenorRodado(eBicicleta bicicletas[],int tamb,int tamr,eColor colo
 
         for (int i =0; i<tamb; i++)
         {
-            if(menor==bicicletas[i].rodado)
+            if(menor==bicicletas[i].rodado&&!bicicletas[i].isEmpty)
             {
                 mostrarbicicleta(bicicletas[i],colores,tamc,tipos,tamt,clientes,tamcli);
             }
@@ -346,7 +345,7 @@ int gastosDeTrabajosPorBicicleta(eBicicleta bicicletas[],int tamb,eTrabajo traba
             indice=buscarbicicleta(idBicicleta,bicicletas,tamb);
         }
         system("cls");
-        printf("    Listado de trabajos de la bicicleta de ID %d\n\n",bicicletas[indice].idbicicleta);
+        printf("    Listado de gastos de trabajos de la bicicleta de ID %d\n\n",bicicletas[indice].idbicicleta);
 
         for(int i=0; i<tamtrab; i++)
         {
@@ -356,7 +355,7 @@ int gastosDeTrabajosPorBicicleta(eBicicleta bicicletas[],int tamb,eTrabajo traba
                 {
                     if(trabajos[i].idservcio==servicios[s].idservicio)
                     {
-                        total=servicios[s].precio;
+                        total+=servicios[s].precio;
                         flag=1;
                     }
                 }

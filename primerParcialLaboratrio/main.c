@@ -241,7 +241,7 @@ int main()
                 }
                 break;
             case 8:
-                if(!mostrarTrabajosPorServicio(bicicletas,TAMB,servicios,TAMS,trabajos,TAMTRAB))
+                if(!gastosDeTrabajosPorBicicleta(bicicletas,TAMB,trabajos,TAMTRAB,servicios,TAMS,colores,TAMC,tipos,TAMT,clientes,TAMCLIENTE))
                 {
                     printf("\nHubo un error al cargar el informe.\n\n");
                 }
@@ -251,6 +251,16 @@ int main()
                 }
                 break;
             case 9:
+                if(!mostrarTrabajosPorServicio(bicicletas,TAMB,servicios,TAMS,trabajos,TAMTRAB))
+                {
+                    printf("\nHubo un error al cargar el informe.\n\n");
+                }
+                else
+                {
+                    printf("\nInforme exitoso.\n\n");
+                }
+                break;
+            case 10:
                 if(!mostrarTrabajosPorFecha(bicicletas,TAMB,servicios,TAMS,trabajos,TAMTRAB))
                 {
                     printf("\nHubo un error al cargar el informe.\n\n");
